@@ -5,7 +5,8 @@ font-family: 'Varela Round', sans-serif; */
     border-radius: 100px;
 } */
 body{
-    font-family: 'Nunito', sans-serif; 
+    margin-right: 0px;
+    font-family: 'Nunito', sans-serif;
 }
 .modal-footer{
     border-top-style: none;
