@@ -1,14 +1,12 @@
-/* font-family: 'Comforter Brush', cursive;
-font-family: 'Crafty Girls', cursive;
-font-family: 'Fredoka One', cursive;
-font-family: 'Just Another Hand', cursive;
-font-family: 'Pacifico', cursive;
-font-family: 'Pangolin', cursive;
-font-family: 'Poppins', sans-serif;
-font-family: 'Shadows Into Light', cursive; */
+/* font-family: 'Nunito', sans-serif;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Varela Round', sans-serif; */
 /* .container-modal{
     border-radius: 100px;
 } */
+body{
+    font-family: 'Nunito', sans-serif; 
+}
 .modal-footer{
     border-top-style: none;
     display: flex;
@@ -36,12 +34,9 @@ font-family: 'Shadows Into Light', cursive; */
 .nav-menu-container{
     margin-left: auto;
 }
-/* .nav-collapse-style{
+.nav-collapse-style{
     display: flex;
-    justify-content:left;
-} */
-.nav-btn{
-    padding: 0;
+    align-items: flex-end;
 }
 svg{
     display: flex;
@@ -66,9 +61,7 @@ svg{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.card{
-    padding: 0;
+    width: 100vw;
 }
 .item-card{
     border-radius: 20px;
@@ -86,7 +79,7 @@ svg{
     display: inline;
     font-size: 1.1em;
     font-weight: 400;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     margin-top: 10px;
     font-family: 'Varela Round', sans-serif;
     
@@ -111,6 +104,9 @@ svg{
     display: flex;
     justify-content: center;
 }
+.modal-content{
+    border-radius: 20px;
+}
 .item-footer-modal{
    display: flex;
    flex-direction: column;
@@ -129,10 +125,13 @@ svg{
 .item-btn-modal{
     width: 10em;
 }
+.upload-button{
+    margin-bottom: 40px;
+}
 .footer-style{
     padding: 50px 100px;
     margin-top: 50px;
-    height: 700px;
+    height: 720px;
     background-color: floralwhite;
 }
 .form-style{
@@ -149,9 +148,14 @@ svg{
   }
   .footer-link{
     margin:30px;
+    margin-top: 10px;
   }
   .footer-link-style{
     text-align: center;
+}
+.footer-link-style-each{
+    text-decoration: none;
+    color:rgb(161, 95, 223);
 }
   .copyright-footer{
       text-align: center;
@@ -159,6 +163,7 @@ svg{
   }
 .container-aboutus{
     height: 600px;
+    font-family: 'Nunito', sans-serif; 
 }
 .aboutus-img{
     background-image: url("images/artsy-heart.jpeg");
@@ -171,14 +176,11 @@ svg{
     justify-content: center;
     align-items: center;
 }
-.breadcrumb-text{
-    font-family: 'Nunito', sans-serif; 
+.breadcrumb-container{
+    margin-top: 10px;
 }
 .text-about-tag{
     font-family: 'Varela Round', sans-serif;
-}
-.text-wrap{
-    font-family: 'Nunito', sans-serif; 
 }
 .text-heart{
     color: rgb(230, 6, 43);
