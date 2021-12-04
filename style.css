@@ -5,8 +5,7 @@ font-family: 'Varela Round', sans-serif; */
     border-radius: 100px;
 } */
 body{
-    margin-right: 0px;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito', sans-serif; 
 }
 .modal-footer{
     border-top-style: none;
@@ -35,10 +34,10 @@ body{
 .nav-menu-container{
     margin-left: auto;
 }
-/* .nav-collapse-style{
+.nav-collapse-style{
     display: flex;
-    justify-content:left;
-} */
+    align-items: flex-end;
+}
 svg{
     display: flex;
     justify-content: center;
@@ -62,6 +61,7 @@ svg{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100vw;
 }
 .item-card{
     border-radius: 20px;
@@ -104,6 +104,9 @@ svg{
     display: flex;
     justify-content: center;
 }
+.modal-content{
+    border-radius: 20px;
+}
 .item-footer-modal{
    display: flex;
    flex-direction: column;
@@ -121,6 +124,9 @@ svg{
 }
 .item-btn-modal{
     width: 10em;
+}
+.upload-button{
+    margin-bottom: 40px;
 }
 .footer-style{
     padding: 50px 100px;
